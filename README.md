@@ -12,6 +12,11 @@ This is an implementation of Blackjack in Ruby with the following house rules:
 
 ### Running
 * Clone this repo into a folder `bj`
+* Install gems
+<pre>
+    $> cd bj
+    bj> bundle install
+</pre>
 * To run tests
 <pre>
     $> cd bj
@@ -27,3 +32,6 @@ This is an implementation of Blackjack in Ruby with the following house rules:
 Implement a simple game of blackjack. It should employ a basic command-line interface. The program should begin by asking how many players are at the table, start each player with $500, and allow the players to make any integer bet for each deal.
 
 The program must implement the core blackjack rules, i.e. players can choose to hit until they go over 21, the dealer must hit on 16 and stay on 17, etc. It must also support doubling-down and splitting.
+
+### Demo
+https://repl.it/MaKj/1
